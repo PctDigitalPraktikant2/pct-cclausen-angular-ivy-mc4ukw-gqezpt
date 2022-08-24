@@ -1,9 +1,35 @@
 div {
   text-align: center;
+  background-color:rgba(0, 140, 255, 0.747);
+  font-family: fantasy;
+  font-size: larger;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
-html {
-  background-color: aqua;
+button {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  width: 30%;
+  height: 10%;
+  transition-duration: 0.4s;
+  background-color:rgba(0, 140, 255, 0.747);
+  border-radius: 25px;
+  font-family: fantasy;
+  font-size: large;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
-body{
-  background-color: yellow;
+button:hover {
+  background-color: rgb(0, 140, 255);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+input {
+  background-color: lightgray;
+  width: 40%;
+  position: absolute;
+  top: 5%;
+  left: 30%;
 }
