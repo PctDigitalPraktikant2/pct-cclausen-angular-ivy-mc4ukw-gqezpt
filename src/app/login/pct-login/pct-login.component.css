@@ -1,38 +1,37 @@
 p {
   background-color:rgba(0, 96, 175, 0.747);
-  font-family: cursive;
-  font-size:150%;
   color: white;
   text-shadow: 2px 2px 4px #000000;
   text-align: center;
-  position: absolute;
-  top:3%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
   width: 100%;
   height: 10%;
+  font-family: cursive;
+  font-size:150%;
+  position: absolute;
+  left: 50%;
+  top:3%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 button {
-  display: inline-block;
-  padding: 15px 25px;
+  color: #fff;
+  background-color: rgba(0, 96, 175, 0.747);
+  text-shadow: 2px 2px 4px #000000;  position: absolute;
   font-size: 24px;
+  padding: 15px 25px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   outline: none;
-  color: #fff;
-  background-color: rgba(0, 96, 175, 0.747);
   border: none;
   border-radius: 15px;
-  height: 15%;
   font-family: cursive;
-  text-shadow: 2px 2px 4px #000000;  position: absolute;
+  height: 15%;
+  width: 40%;
   top: 80%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 40%;
 }
 button:hover {
   background-color:rgba(0, 96, 175, 0.747);
